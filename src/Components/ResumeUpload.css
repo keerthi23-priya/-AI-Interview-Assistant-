@@ -1,0 +1,84 @@
+.resume-upload {
+  background: white;
+  padding: 60px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  max-width: 700px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.resume-upload h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #111827; /* darker gray */
+}
+
+.resume-upload p {
+  font-size: 1.2rem;
+  color: #4b5563; /* medium gray */
+  margin-bottom: 40px;
+}
+
+/* File Input */
+.resume-upload input[type="file"] {
+  display: block;
+  margin: 0 auto 30px;
+  padding: 20px;
+  border: 3px dashed #cbd5e1; /* light gray */
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background: #f9fafb;
+  transition: 0.3s ease;
+}
+
+.resume-upload input[type="file"]:hover {
+  border-color: #2563eb; /* blue */
+  background: #eff6ff;
+}
+
+/* Upload Button */
+.resume-upload button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 16px 36px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.resume-upload button:hover {
+  background: #1d4ed8;
+  transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .resume-upload {
+    padding: 40px 20px;
+  }
+
+  .resume-upload h2 {
+    font-size: 1.8rem;
+  }
+
+  .resume-upload p {
+    font-size: 1rem;
+  }
+
+  .resume-upload input[type="file"] {
+    font-size: 1rem;
+    padding: 14px;
+  }
+
+  .resume-upload button {
+    font-size: 1rem;
+    padding: 12px 28px;
+  }
+}

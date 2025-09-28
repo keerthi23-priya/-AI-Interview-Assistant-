@@ -1,0 +1,82 @@
+/* Fullscreen overlay */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6); /* dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* make sure it's on top */
+}
+
+/* Modal card */
+.modal-content {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  animation: fadeIn 0.3s ease;
+}
+
+/* Title */
+.modal-content h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+/* Subtitle text */
+.modal-content p {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+/* Buttons container */
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Buttons */
+.resume-btn,
+.startover-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  min-width: 100px;
+}
+
+.resume-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.resume-btn:hover {
+  background: #1d4ed8;
+}
+
+.startover-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.startover-btn:hover {
+  background: #b91c1c;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}

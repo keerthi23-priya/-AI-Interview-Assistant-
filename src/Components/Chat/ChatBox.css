@@ -1,0 +1,23 @@
+.chat-box {
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box; /* Add this */
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.chat-box input[type="text"] {
+  width: 100%;
+  box-sizing: border-box; /* Add this */
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
