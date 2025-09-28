@@ -17,16 +17,11 @@ export const questions = [
   {
     id: 4,
     question: "What is Node.js?",
-    correctAnswer: ""
+    correctAnswer: "JavaScript runtime environment"
   },
   {
     id: 5,
     question: "How does Express handle requests?",
-    correctAnswer: ""
-  },
-  {
-    id: 6,
-    question: "How would you optimize a MERN app?",
-    correctAnswer: ""
+    correctAnswer: "to handle routes, requests, and responses"
   },
 ];
